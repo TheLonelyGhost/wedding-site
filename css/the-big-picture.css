@@ -1,0 +1,74 @@
+/*!
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/SunsetInThePark-300px.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (min-device-width: 600px) {
+  body {
+    background-image: url(../images/SunsetInThePark-600px.png);
+  }
+}
+@media screen and (min-device-width: 900px) {
+  body {
+    background-image: url(../images/SunsetInThePark-900px.png);
+  }
+}
+/*@media screen and (min-device-width: 1200px) {
+  body {
+    background-image: url(../images/SunsetInThePark.png);
+  }
+}*/
+
+* {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+header h1,
+header h2,
+header h3,
+header h4 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+header time {
+  text-decoration: underline;
+}
+
+.cursive {
+  font-family: 'Rock Salt', cursive;
+}
+
+#container {
+  max-width: 85%;
+  min-width: 70%;
+  background: rgba(155, 155, 92, 0.6);
+  padding: 0.5em 2em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+article {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+time[datetime] {
+  font-style: italic;
+}
