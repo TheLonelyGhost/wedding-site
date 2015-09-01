@@ -5,6 +5,7 @@
 
 body {
   display: flex;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   background: url(../images/SunsetInThePark-300px.png) no-repeat center center fixed;
@@ -55,7 +56,8 @@ header time {
 
 #container {
   max-width: 85%;
-  min-width: 70%;
+  min-width: 30%;
+  margin: 2em;
   background: rgba(155, 155, 92, 0.6);
   padding: 0.5em 2em;
   border-radius: 1em;
