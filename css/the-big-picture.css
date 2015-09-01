@@ -52,8 +52,13 @@ header h4 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-header time {
+header time[datetime] {
+  font-style: italic;
+}
+
+header h1 time {
   text-decoration: underline;
+  font-style: none;
 }
 
 .cursive {
@@ -77,8 +82,4 @@ article {
   margin: 0 auto;
   text-align: left;
   font-family: sans-serif;
-}
-
-time[datetime] {
-  font-style: italic;
 }
