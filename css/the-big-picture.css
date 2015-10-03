@@ -40,6 +40,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
+  line-height: 1.5em;
+}
+p, li {
+  line-height: 1.25em;
 }
 
 header {
@@ -50,11 +54,14 @@ header h2,
 header h3,
 header h4 {
   font-family: 'Gloria Hallelujah', cursive;
+  padding: 0;
+  margin: 0.5em 0 0.25em 0;
 }
 
+/*
 header time[datetime] {
   font-style: italic;
-}
+}*/
 
 header h1 time {
   text-decoration: underline;
@@ -82,4 +89,14 @@ article {
   margin: 0 auto;
   text-align: left;
   font-family: sans-serif;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0 0.5em 2em;
+  padding: 0;
 }
