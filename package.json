@@ -1,0 +1,26 @@
+{
+  "name": "wedding-site",
+  "version": "1.0.0",
+  "description": "Wedding site for Alexander-Harmon wedding 2016",
+  "main": "server.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelonelyghost/wedding-site.git"
+  },
+  "author": "David Alexander",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/thelonelyghost/wedding-site/issues"
+  },
+  "homepage": "https://github.com/thelonelyghost/wedding-site#readme"
+}

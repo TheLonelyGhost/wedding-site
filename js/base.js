@@ -1,4 +1,9 @@
-;(function(countdown) {
+;(function() {
+  if(window.location.hostname != 'alexander-wedding.me' && window.location.hostname != 'localhost') {
+    window.location = window.location.protocol + "//alexander-wedding.me";
+  }
+})();
+(function(countdown) {
   var clock = document.getElementById('wedding-date'),
     targetDate = new Date(clock.getAttribute('datetime')),
     updateCountdown = function() {
