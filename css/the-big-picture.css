@@ -109,15 +109,32 @@ ul.menu > li, ol.menu > li {
 
 .menu a.current {
   font-weight: bold;
-  color: inherit;
+  color: inherit !important;
   font-style: inherit;
   text-decoration: inherit;
 }
 .menu a.current:hover {
   cursor: default;
+  text-decoration: inherit;
 }
 
 li {
   margin: 0.5em 0 0.5em 2em;
   padding: 0;
+}
+
+a[href] {
+  color: #A80011;
+  text-decoration: none;
+}
+a[href]:visited,
+a[href]:active,
+a[href]:focus,
+a[href]:hover {
+  color: #DE0016;
+}
+
+a[href]:focus,
+a[href]:hover {
+  text-decoration: underline;
 }
