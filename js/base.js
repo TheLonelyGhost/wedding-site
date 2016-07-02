@@ -9,7 +9,8 @@
   });
 })(window.jQuery);
 (function(countdown) {
-  var clock = document.getElementById('wedding-date');
+  var clock;
+  //clock = document.getElementById('wedding-date');
 
   if(clock) {
     var targetDate = new Date(clock.getAttribute('datetime')),
